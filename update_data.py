@@ -3,7 +3,7 @@ import pandas as pd
 import re
 
 # COLE O SEU LINK DO GOOGLE SHEETS (CSV) ABAIXO:
-URL_PLANILHA = "COLE_AQUI_SEU_LINK_CSV"
+URL_PLANILHA = "https://docs.google.com/spreadsheets/d/e/2PACX-1vReYUwaAC9Qcpwe7zKR7aeP0MTMR7MWFF1G9_hvmR2kfDAealCE7wUoVUvMPCS1Zcl9yukdlfmLNODA/pub?output=csv"
 
 def limpar_html(texto):
     if not isinstance(texto, str): return str(texto)
